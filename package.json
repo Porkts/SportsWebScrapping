@@ -1,0 +1,12 @@
+{
+  "name": "WebScrapping",
+  "version": "0.0.1",
+  "description": "WebScrapping para Esportes",
+  "main": "index.js",
+  "author": "EvertonRecchi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
