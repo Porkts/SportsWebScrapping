@@ -10,6 +10,7 @@ axios.get(URL_TO_SCRAP)
     // carregando a resposta da requisica para um objeto do cheerio
     const $ = cheerio.load(response.data)
 
+    // forma feia de fazer um string replace em todos os const por var (executar uma string com o eval que contenha const buga)
     eval($('#scriptReact').html().split('const').join('var'))
     console.log(listaJogos)
 })
